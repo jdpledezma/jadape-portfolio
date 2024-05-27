@@ -12,6 +12,7 @@ btnSmallMenu.addEventListener("click",()=>{
     menuActivated = true;
     }else{
         smallMenu.classList.remove("open")
+        smallMenu.style.display = "none";
         menuActivated = false;
         btnSmallMenu.src = "./img/hamburguer.svg";
     }
